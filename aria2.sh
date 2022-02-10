@@ -709,7 +709,7 @@ else
     echo -e " Aria2 状态: ${Red_font_prefix}未安装${Font_color_suffix}"
 fi
 echo
-read -e -p " 请输入数字 [0-12]:" num
+read  -p " 请输入数字 [0-12]:" num
 case "$num" in
 0)
     Update_Shell
